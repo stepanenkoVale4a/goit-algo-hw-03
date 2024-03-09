@@ -1,5 +1,5 @@
 import random
-min = int(input("input MIN: "))
+min = int(input("input MIN: ")) #Вводимо мінімальну
 max = int(input("Input MAX: "))
 quantity = int(input("Input quantity: "))
 
