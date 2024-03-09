@@ -1,6 +1,6 @@
 import random
-min = int(input("input MIN: ")) #Вводимо мінімальну
-max = int(input("Input MAX: "))
+min = int(input("input MIN: ")) #Вводимо мінімальну границю
+max = int(input("Input MAX: ")) #Max
 quantity = int(input("Input quantity: "))
 
 def get_numbers_ticket(min, max, quantity):
