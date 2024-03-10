@@ -4,7 +4,7 @@ max = int(input("Input MAX: ")) #Max
 quantity = int(input("Input quantity: "))
 
 def get_numbers_ticket(min, max, quantity):
-    if min < max and quantity >=1:
+    if min < max and min < quantity < max:
         spam = list(range(min, max+1))
         result = random.sample(spam, quantity)
         return sorted(result)
